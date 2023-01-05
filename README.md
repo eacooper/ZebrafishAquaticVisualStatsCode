@@ -8,7 +8,7 @@ X
 
 and the path should be manually updated in the code.
 
-The repository is split into two parts:
+The repository is split into three parts:
 
 ## Contrast Analysis
 
@@ -17,6 +17,10 @@ This code runs the analyses of global and local contrast statistics (Figures 2, 
 ## Fourier Analysis
 
 This code runs the analyses of spatiotemporal statistics (Figures 4 and 5A). The script "main" sets the appropriate paths and calls a set of scripts to run each analysis, save plots, and report statistical tests.
+
+## Preprocessing
+
+This code demonstrates the preprocessing steps to go from raw output from the Insta 360 cameras to the sampled videos used in the analyses. See the readme file within this directory for more information
 
 ## About the dataset
 
