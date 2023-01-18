@@ -6,7 +6,7 @@ folders = {'air_g_brc','water_g_brc'};
 
 % step 1: compute fft of each video and store results
 % this is slow and saves the results to a fourierCubes subfolder in the data_path folder, so it can
-% be commented out if just plotting
+% be commented out if you've already run this once
 compute_fft;
 
 % step 2: load fourierCubes and compute summary power in spatiotemporal bins and space/time marginals, store results

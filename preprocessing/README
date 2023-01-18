@@ -1,0 +1,7 @@
+The Matlab function "make_cubes_from_pngs_demo.m" shows how to go from PNGs extracted from an Insta 360 video file to a video sample in the style used in the contrast and Fourier analyses (i.e., the files included in the public dataset on Zenodo). We have included a few example PNGs in the "example_raw_video_frames" folder for demomstration.
+
+This function requires two inputs: a full path to the working directory of the demo, and the pngs folder name. For example, if you're running it from within the preprocessing directory:
+
+make_cubes_from_pngs_demo('.', 'example_raw_video_frames/Oct11_insta2_air_S6_1')
+
+Note this running this will require that the "calibration_data" folder from Zenodo is in the working directory.
