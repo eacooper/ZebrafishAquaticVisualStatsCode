@@ -4,7 +4,7 @@ This repository contains Matlab code for running the analyses described in the m
 
 The dataset of terrestrial and aquatic videos should be downloaded separately from:
 
-X
+https://doi.org/10.5281/zenodo.7502451
 
 and the path should be manually updated in the code.
 
